@@ -29,3 +29,8 @@ li a {
   display: table;
   clear: both;
 }
+
+.inline {
+  display: inline-block;
+  /* vertical-align: top; */
+}
