@@ -9,6 +9,10 @@ body, html {
 background: rgba(108,117,125, .70);
 }
 
+.grey-bg {
+  background: rgba(108,117,125, .70);
+}
+
 .nav a:hover {
 color: #000;
 }
