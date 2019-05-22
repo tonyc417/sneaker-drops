@@ -5,3 +5,13 @@ console.log(data.ProductActivity[0].shoeSize);
 for (var i = 0; i < data.ProductActivity.length; i++) {
     console.log(data.ProductActivity[i].localAmount);
 }
+
+var signUp = document.querySelector("#newRegister");
+var signIn = document.querySelector("#loginModal");
+signUp.addEventListener('click', showRegister);
+
+function showRegister() {
+    signIn.style.display = "none";
+};
+
+

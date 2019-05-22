@@ -1,0 +1,19 @@
+{
+  "name": "sneaker-drops",
+  "version": "1.0.0",
+  "description": "Stay updated with the hottest sneakers coming out",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyc417/sneaker-drops.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyc417/sneaker-drops/issues"
+  },
+  "homepage": "https://github.com/tonyc417/sneaker-drops#readme"
+}
