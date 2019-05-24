@@ -26,7 +26,7 @@ transition: opacity 150ms ease-in-out;
 }
 
 #hero-image {
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./offWhiteFeet.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/offWhiteFeet.jpg");
 height: 80%;
 background-position: center;
 background-repeat: no-repeat;
