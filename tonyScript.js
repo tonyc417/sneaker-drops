@@ -8,10 +8,14 @@ for (var i = 0; i < data.ProductActivity.length; i++) {
 
 var signUp = document.querySelector("#newRegister");
 var signIn = document.querySelector("#loginModal");
-signUp.addEventListener('click', showRegister);
 
-function showRegister() {
-    signIn.style.display = "none";
-};
+function hideModal() {
+  $("#loginModal").modal('hide');
+  $("#registerModal").modal('show');
+}
 
-
+$("#confirmReg").on('click', () => {
+    console.log($("#regEmail").val());
+    console.log($("#regPassword").val());
+    console.log($("#confirmPass").val());
+});
